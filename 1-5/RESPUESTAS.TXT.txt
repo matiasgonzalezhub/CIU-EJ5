@@ -1,0 +1,6 @@
+1- En la funcion cambiarDimensionFuente ya que en esta crea una funcion interna la cual es devuelta
+2- Al cargar la pagina en el onload se le dice a cada div que cada vez que se clickee se le asigne la funcion que es la variable sizeX
+3- Indica que no esta definida la funcion setClicks, ya que es invocada en el onload
+4- Se debe escribir document.getElementById('fuente-8').onclick = size8; ya que es una variable que tiene una funcion asignada
+5- No entiendo la pregunta, pero entiendo que size8 ya que no existe la funcion size8() como tal
+6- Ventaja reduce codigo en un punto, problema es que no es tan sencillo de leer/entender

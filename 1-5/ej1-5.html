@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      body {
+        font-family: Helvetica, Arial, sans-serif;
+      }
+      h2 {
+        font-size: 1.5em;
+      }
+      h3 {
+        font-size: 1.2em;
+      }
+      div div {
+        color: blue;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="cabecera">
+      <h2>Construcción de Interfaces de Usuario</h2>
+      <h3>Ejemplos JavaScript</h3>
+      <div id="fuente-8">Poner texto a 8</div>
+      <div id="fuente-16">Poner texto a 16</div>
+      <div id="fuente-24">Poner texto a 24</div>
+    </div>
+    <p>En las praderas de la estepa de la Tierra del Fuego suele hacer frío</p>
+  </body>
+</html>
+
+<script>
+  let f8 = document.getElementById("fuente-8");
+  f8.onclick = function () {
+    document.body.style.fontSize = 8 + "px";
+  };
+
+  let f16 = document.getElementById("fuente-16");
+  f16.onclick = function () {
+    document.body.style.fontSize = 16 + "px";
+  };
+
+  let f24 = document.getElementById("fuente-24");
+  f24.onclick = function () {
+    document.body.style.fontSize = 24 + "px";
+  };
+</script>
